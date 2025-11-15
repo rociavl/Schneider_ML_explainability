@@ -193,19 +193,17 @@ This guide will help you and your team collaborate effectively on this repositor
 
 2. **Switch to your main branch:**
    ```bash
-   git checkout master
-   # or
    git checkout main
    ```
 
 3. **Merge upstream changes:**
    ```bash
-   git merge upstream/master
+   git merge upstream/main
    ```
 
 4. **Push updates to your fork:**
    ```bash
-   git push origin master
+   git push origin main
    ```
 
 ---
@@ -275,11 +273,11 @@ git commit -m "message"
 git push origin branch-name
 
 # Pull latest changes
-git pull origin master
+git pull origin main
 
 # Sync with upstream
 git fetch upstream
-git merge upstream/master
+git merge upstream/main
 
 # View commit history
 git log
